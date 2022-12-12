@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>Báo lá chuối &amp; tin tức thể thao</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="preload-content">
+            <div id="world-load"></div>
+        </div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area custom-header-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <!-- Logo -->
+                        <a class="navbar-brand" href="index.html"><img src="img/blog-img/logo.png" alt="Logo"></a>
+                        <!-- Navbar Toggler -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#worldNav" aria-controls="worldNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                        <!-- Navbar -->
+                        <div class="collapse navbar-collapse" id="worldNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Trang chủ <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Trang</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="index.html">Trang chủ</a>
+                                        <a class="dropdown-item" href="bai-viet-1.html">Thể loại</a>
+                                        <a class="dropdown-item" href="bai-viet-2.html">Tin tức</a>
+                                        <a class="dropdown-item" href="bai-viet-3.html">Bảng đấu</a>
+                                        <a class="dropdown-item" href="contact.html">Liên hệ</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="bai-viet-1.html">Thể loại</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="bai-viet-2.html">Tin tức</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="bai-viet-3.html">Bảng đấu</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="lienhe.html">Liên hệ</a>
+                                </li>
+                            </ul>
+                            <!-- Search Form  -->
+                            <div id="search-wrapper">
+                                <form action="#">
+                                    <input type="text" id="search" placeholder="Search something...">
+                                    <div id="close-icon"></div>
+                                    <input class="d-none" type="submit" value="">
+                                </form>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ********** contact start ********** -->
+    <section id="contact" class="contact mb-5">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-12 text-center mb-5">
+            <h1 class="page-title">Contact us</h1>
+          </div>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-md-4">
+            <div class="info-item">
+              <h3>Address</h3>
+              <address>PH GTVT HCM</address>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-4">
+            <div class="info-item info-item-borders">
+              <h3>Phone Number</h3>
+              <p><a href="tel:+84378436733">+84378436733</a></p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-4">
+            <div class="info-item">
+              <h3>Email</h3>
+              <p><a href="mailto:6521071072@st.utc2.edu.vn">6521071072@st.utc2.edu.vn</a></p>
+            </div>
+          </div><!-- End Info Item -->
+
+        </div>
+
+        <div class="form mt-5">
+          <form  onsubmit="return submitForm()" method="post" role="form" class="">
+            <div class="row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message"id="message" rows="5" placeholder="Message" required=""></textarea>
+            </div>
+            <div id="show_success" class="my-3 message-fail">
+              <div class="error-message"></div>
+              <div class="sent-message" style="color: green;">Your message has been sent. Thank you!</div>
+            </div>
+            <div class="text-center"><button class="btn-submit" type="submit">Send Message</button></div>
+          </form>
+        </div><!-- End Contact Form -->
+
+      </div>
+    </section>
+    <!-- ********** contact end ********** -->
+
+    <div class="main-content-wrapper section-padding-100">
+        
+    </div>
+
+    <!-- ***** Footer Area Start ***** -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="footer-single-widget">
+                        <a href="index.html"><img src="img/blog-img/logo.png" alt=""></a>
+                        <div class="copywrite-text mt-30">
+                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Bản quyền &copy;<script>document.write(new Date().getFullYear());</script> | Thực hiện <i class="fa fa-heart-o" aria-hidden="true"></i> bởi <a href="index.html" target="_blank">Báo lá chuối</a> 
+<p>Tự hào được phân phối bởi <a href="#" target="_blank">Báo đời báo đốm báo hoa mai báo quốc gia =))</a></p>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="footer-single-widget">
+                        <ul class="footer-menu d-flex justify-content-between">
+                            <li><a href="index.html">Trang chủ</a></li>
+                            <li><a href="#">Video</a></li>
+                            <li><a href="#">Thể loại</a></li>
+                            <li><a href="#">Tin tức</a></li>
+                            <li><a href="#">Bảng Đấu</a></li>
+                            <li><a href="lienhe.html">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="footer-single-widget">
+                        <h5>Đăng ký</h5>
+                        <form action="#" method="post">
+                            <input type="email" name="email" id="email" placeholder="Enter your mail">
+                            <button type="button"><i class="fa fa-arrow-right"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div section-padding-100>
+    </footer>
+    <!-- ***** Footer Area End ***** -->
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+</body>
+
+</html>
